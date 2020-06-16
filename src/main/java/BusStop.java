@@ -14,4 +14,8 @@ public class BusStop{
     public int getQueueSize() {
         return queue.size();
     }
+
+    public void removePerson() {
+        this.queue.remove(0);
+    }
 }
